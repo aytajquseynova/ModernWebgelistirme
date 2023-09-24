@@ -141,6 +141,15 @@
    - Ajax ile Http Requestleri - PUT
    - Ajax ile Http Requestleri - DELETE
      #### Bitmə tarixi 24 sentyabr
+     #### Başlama tarixi 24 sentyabr
+   ## Asenkron programlama part 2 -ES-6 - Promise ve Fetch
+   - Callback cehennemi ve Promise
+   - Promise yapısı ve Chain
+   - Fetch kullanımı
+   - Fetch ve Promise ile HTTP istekleri - GET
+   - Fetch ve Promise ile HTTP istekleri - POST
+   - Fetch ve Promise ile HTTP istekleri - PUT ve DELETE
+      #### Bitmə tarixi 24 sentyabr
    
   
   
