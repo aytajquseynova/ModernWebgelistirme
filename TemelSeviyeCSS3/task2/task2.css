@@ -1,0 +1,15 @@
+/*
+HTML layout verilmişdir. Mətni qaydalara uyğun tərtib edin:
+- sənəd şrifti — Montserrat,
+- başlıq rəngi — #3333ee,
+- adi mətn üçün mətn qalınlığı — 600.
+*/
+body{
+    font-family:Montserrat;
+}
+h1{
+    color:#3333ee;
+}
+p{
+    font-weight:600;
+}

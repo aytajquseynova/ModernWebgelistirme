@@ -1,0 +1,11 @@
+/*Səhifədə üç mətn bloku verilmişdir.
+ Onlara cyan fon rəngi verin və paraqraflar arasında 50px boşluq əlavə edin.*/
+ *{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+ }
+ p{
+    background-color:cyan;
+    margin:50px;
+ }

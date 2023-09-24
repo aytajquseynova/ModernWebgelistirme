@@ -1,0 +1,15 @@
+/*Mətn bloklarına stil verin.
+Mətn paraqrafını qaydalara uyğun tərtib edin:
+fon rəngi — cornsilk;
+xarici boşluq — hər tərəfdən 50px;
+daxili boşluq — yuxarı və aşağıdan 20px, sol və sağdan 30px;
+blok eni  — daxili boşluqları nəzərə almaqla 300px;
+blokun ətrafında 2px qalınlığında qara rəngli çərçivə*/
+.block{
+    background-color:cornsilk;
+    margin:50px;
+    padding:20px 30px;
+    width:300px;
+    box-sizing:border-box;
+    border:2px solid black;
+}

@@ -1,0 +1,11 @@
+.box{
+    width:50%;
+    height:30px;
+    color:white;
+    background-color:rgb(204, 181, 225);
+    position:fixed;
+    bottom:5px;
+    text-align:center;
+    padding:15px;
+    box-sizing:border-box;
+}

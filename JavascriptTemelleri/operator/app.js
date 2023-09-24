@@ -1,0 +1,9 @@
+value=Math.ceil(3.2);
+value=Math.floor(4.7);
+value=Math.sqrt(25);
+value=Math.pow(2,5);
+value=Math.round(7.8);
+value=Math.max(100,34,4994,-4);
+value=Math.min(-10,-100,-1);
+value=Math.random();
+console.log(value);

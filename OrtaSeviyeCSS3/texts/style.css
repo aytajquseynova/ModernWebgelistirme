@@ -1,0 +1,17 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.box1{
+    color:rgb(245, 213, 213);
+    background-color:rgb(124, 53, 53);
+    text-align:center;
+    margin:10px 5px;
+    padding:5px 10px;
+    text-transform:lowercase;
+    letter-spacing:2px;
+}
+span{
+    text-decoration:underline;
+}

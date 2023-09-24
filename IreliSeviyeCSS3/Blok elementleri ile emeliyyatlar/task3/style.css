@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    box-sizing:content-box;
+}
+.container{
+    margin: 20px;
+    width:1000px;
+    height:100%;
+    box-sizing:border-box;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+.header-info-paragraph{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+    font-size:25px;
+    margin:0;
+}
+.menu-items{
+    display:flex;
+    list-style-type: none;
+}
+/*a{
+    display:inline-block;}*/
+li{
+    display:inline-block;
+    color:black;
+    text-decoration:none;
+    margin: 0 10px;
+    border-bottom: 1px solid black;
+    line-height: 15px;
+    font-family:Georgia;
+    text-align:left;
+}
+li:hover{
+    cursor:pointer;
+}
+.title{
+    background-color: blue;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-family:Roboto;
+}
+.title h1{
+    font-size: 65px;
+    width: 700px;
+}
+.title p{
+    font-size: 33px;
+    width: 500px;
+}
+.first-paragraph p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family:Georgia;
+}
+.description h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Roboto;
+}
+.description p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+    overflow:clip;
+}
+.note{
+    width: 700px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto;
+}

@@ -1,0 +1,53 @@
+body{
+    box-sizing:border-box;
+}
+.card-body{
+    border: 1px solid grey;
+    padding:10px;
+}
+h4{
+    display:inline-block;
+    
+}
+.form-control{
+    width:50%;
+    border: 3px solid black;
+    border-radius:7px;
+}
+
+.btn {
+    margin-top:10px;
+    padding:8px;
+    background-color:antiquewhite;
+    color:black;
+    border-radius:7px;
+    width:52%;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin:15px;
+    padding: 5px;
+    border: 2px solid rgb(190, 190, 225);
+    display:flex;
+    justify-content:space-between;
+}
+a{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-left:55px;
+    background-color:rgb(21, 21, 53); 
+    border-radius: 2px;
+}
+i{
+    font-size: 16px;
+    color:white;
+}
+.btn-dark {
+    background-color:black;
+}
+.btn-danger{
+    background-color:Red;
+}

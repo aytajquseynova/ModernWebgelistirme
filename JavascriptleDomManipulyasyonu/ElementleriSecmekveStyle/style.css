@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+}
+li{
+    margin:15px;
+    padding: 5px;
+    border: 2px solid rgb(190, 190, 225);
+    display:flex;
+    justify-content:space-between;
+}
+a{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-left:55px;
+    background-color:black;
+    color:White;
+    border-radius: 2px;
+}
+i{
+    color:white; 
+}
+.btn-dark {
+    background-color:black;
+}
+.btn-danger{
+    background-color:Red;
+}

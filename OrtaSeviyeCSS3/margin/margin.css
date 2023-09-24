@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box-1{
+    color:rgb(150, 101, 101);
+    background-color:rgb(66, 23, 23);
+    margin:25px 15px 20px 10px;
+}
+.box2{
+color:rgb(145, 227, 145);
+background-color:rgb(7, 19, 7);
+margin:15px 10px;
+}
+.box3{
+    color:rgb(172, 172, 216);
+    background-color:rgb(28, 28, 66);
+    width:50%;
+    margin-left:auto;
+    margin-right:Auto;
+    /*margin:0 auto seklinde de yazmaq olar bu ozelliyi*/
+}
+/*top right bottom left*
+ya da top-bottom right-left/

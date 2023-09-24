@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-size:11px;
+    font-family: Lato, sans-serif;
+    padding:10px;
+    margin:8px;
+   /*font-weight:700;*/ 
+    position:Relative;
+}
+h2{
+    font-size:2em;
+}
+span{
+    font-weight:bold;
+}
+.bar{
+    height: 50px;
+    margin: 0 0 5px;
+    padding: 18px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.iphonexr{
+    width: 463px;
+    background-color: red;
+}
+.iphone11{
+    width: 373px;
+    background-color: lightblue;
+    color: #000;
+}
+.galaxya10{
+    width: 303px;
+    background-color: bisque;
+    color: #000;
+}
+.galaxya50{
+    width: 242px;
+    background-color: cyan;
+    color: #000;
+}
+.galaxya20{
+    width: 192px;
+    background-color: black;
+    color:#bfbfbf;
+}

@@ -1,0 +1,14 @@
+*{
+    box-sizing:content-box;
+}
+div{
+    font-size:1.5em;
+    width:60vw;
+    height:50vh;
+    background-color:red;
+}
+p{
+    font-size:1.5em;
+    padding:1.5em;
+}
+/*em ozelliyi elementin ozune gore teyin olunur. padding 16*1.5*1.5=54px olacaq*/

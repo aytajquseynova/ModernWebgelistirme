@@ -1,0 +1,16 @@
+.header{
+    color:aqua;
+    background-color: blue;
+}
+.logo-list{
+    background-color: rgb(161, 161, 177);
+}
+p{
+    color:red;
+}
+.lead#paragraf1{
+    color:aquamarine !important;
+}
+ul li a{
+    text-decoration: none;
+}

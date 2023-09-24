@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    height:500px;
+    width:80%;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.box{
+    width:20%;
+    height:150px;
+    color:white;
+    border:1px solid white;
+}
+.box:nth-child(1){
+    flex:3;
+    background-color:green;
+    order:1
+}
+.box:nth-child(2){
+    align-self:flex-end;
+    flex:2;
+    background-color:rgb(79, 216, 79);
+    order:3
+}
+.box:nth-child(3){
+    flex:1;
+    order:2;
+    background-color:rgb(107, 116, 107);
+}
+/*flex`e ozellikler vererek box`larin olcusunu nisbetle deyismek mumkundur. Bununla yanasi flex-grow ozelliyi de eyni vezifeni dasiyir.
+order ozelliyi box`larin yerini deyismeye komek edir
+align-self ozelliyi mehz bir box`un istiqametini deyisir*/

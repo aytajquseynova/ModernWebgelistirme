@@ -1,0 +1,17 @@
+.box1{
+    position:relative;
+    left:5px;
+    top:50px;
+    right:25px;
+    background-color:aquamarine;
+    width:100px;
+    height:100px;
+}
+.box2{
+    position:relative;
+    background-color:aqua;
+    width:150px;
+    height:150px;
+    z-index:1;
+}
+/*z-index`in aktiv olmasi ucun hemin o elemente de relative vermek lazimdir.*/

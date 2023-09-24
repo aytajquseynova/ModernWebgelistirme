@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+li{
+margin: 15px;
+padding:5px;
+list-style: none;
+width:75%;
+background-color: #eee;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+}
+.btn{
+     border-radius: 10px ; 
+     padding:10px;
+     margin:10px 10px 10px 50px;
+     text-align: center;
+     
+}
+.btn-dark{
+    background-color:black;
+    color:white;
+}
+.btn-primary{
+    background-color: seagreen;
+    color:antiquewhite;
+}

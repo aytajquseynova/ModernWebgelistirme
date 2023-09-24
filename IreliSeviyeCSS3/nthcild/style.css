@@ -1,0 +1,18 @@
+p{
+    font-size:1.5em;
+}
+p:nth-child(1){
+    color:Red;
+}
+p:nth-child(second){
+    color:black;
+}
+p:nth-child(even){
+    font-style:italic;
+}
+p:nth-child(odd){
+    font-weight:bolder;
+}
+p:nth-child(n+4){
+    color:seagreen;
+}

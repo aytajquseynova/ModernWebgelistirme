@@ -1,0 +1,17 @@
+[
+    {
+    "name": "Aytac Huseynova",
+    "department": "Full-stack",
+    "salary" :3500
+},
+{
+    "name": "Nargiz Almazova",
+    "department": "Tyutor",
+    "salary" :600
+},
+{
+    "name": "Sabina Huseynova",
+    "department": "Dossent",
+    "salary" :1000
+}
+]

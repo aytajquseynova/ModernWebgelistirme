@@ -1,0 +1,19 @@
+.box1{
+    border:5px solid red;
+    border-radius:5px;
+    background-color:seagreen;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.box2{
+    background-color:aquamarine;
+    width:200px;
+    height:200px;
+    border-radius:200px 200px;
+    -webkit-border-radius:200px 200px;
+    -moz-border-radius:200px 200px;
+    -ms-border-radius:200px 200px;
+    -o-border-radius:200px 200px;
+}

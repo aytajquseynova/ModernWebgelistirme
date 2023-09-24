@@ -1,0 +1,15 @@
+nav{
+    display:Flex;
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+}
+li{list-style-type: none;
+padding:20px;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+    color:Red;
+}

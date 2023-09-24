@@ -1,0 +1,78 @@
+/*
+Onlayn mağazanın məhsul kartını tərtib edin.
+Məhsul kartını nümunəyə uyğun tərtib edin.
+Kartı tələblərə uyğun tərtib edin.
+Şəkil linki: https://images-na.ssl-images-amazon.com/images/I/41Ncm1z-pLL._AC_.jpg
+Şrift: Lato
+Qiymət blokunun mətn rəngi: #B12704
+Buy və Add to cart düymələrinin mətn rəngi: #853ae0
+Xüsusiyyətlər olan blokun fon rəngi: #ebebeb
+Çərçivə rəngi: #999999
+HTML və CSS-də heç bir sintaksis səhvinin olmadığından əmin olun.
+Konsolda HTML validator mesajları yoxdur.
+Vizual olaraq, nümunə həllə uyğun gəlir (Overlay bölməsi).
+Bütün qoşa teqlər bağlıdır.
+«Buy» və «Add to cart» mətnləri üzərində kursor olan zamanı olacaq dəyişikliyi tərtib edin
+«Buy» və «Add to cart» mətni üzərinə kursor gəldiyi zaman mətn altxətli olur.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 18px;
+    margin:0;
+}
+.container{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-sizing:content-box;
+}
+img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin:0;
+}
+.lenovo{
+    margin:0 0 10px;
+}
+.price{
+    color:#B12704;
+    margin-bottom:20px;
+    margin-top: 0;
+}
+ul{
+    list-style-type: none;
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 0 0 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    cursor:pointer;
+}
+.cardinfo{
+    font-size: 16px;
+    color: #853ae0;
+    padding: 10px 10px 10px 0px;
+    font-weight: bold;
+}
+.cardinfo:hover{
+    text-decoration:underline;
+}
+.back{
+    display:block;
+    font-size: 12px;
+    display: block;
+    color: black;
+    font-style: italic;
+    padding: 10px 10px 10px 0px;
+}

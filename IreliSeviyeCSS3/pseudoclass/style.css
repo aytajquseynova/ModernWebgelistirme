@@ -1,0 +1,29 @@
+a{  font-size:1.5em;
+    display:inline-block;
+    padding:15px;
+    color:white;
+    background-color:rgb(39, 180, 39);
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border:1px solidwhite;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(39, 180, 39);
+    background-color:white;
+    border:1px solid rgb(39, 180, 39);
+}
+a:active{
+    color:seagreen;
+}
+a:link{
+    background-color:greenyellow;
+}
+a:visited{
+    background-color:black;
+    color:white;
+}
+/*llink ozelliyi ustune tiklamamis, hover ustune gelende, active basili tutanda, visited tikladiqdan sonra*/

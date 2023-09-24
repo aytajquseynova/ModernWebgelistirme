@@ -1,0 +1,32 @@
+.box1{
+    width:200px;
+    height:300px;
+    overflow:visible;
+    background-color:black;
+    color:white;
+    margin:10px;
+}
+.box2{
+    width:200px;
+    height:300px;
+    overflow:scroll;
+    background-color:rgb(146, 49, 49);
+    color:rgb(190, 158, 158);
+    margin:0px;
+}
+.box3{
+    width:200px;
+    height:300px;
+    overflow:hidden;
+    background-color:rgb(43, 14, 14);
+    color:white;
+    margin:10px;
+}
+.box4{
+    width:200px;
+    height:300px;
+    overflow:auto;
+    background-color:rgb(17, 81, 34);
+    color:rgb(190, 105, 167);
+    margin:10px;
+}

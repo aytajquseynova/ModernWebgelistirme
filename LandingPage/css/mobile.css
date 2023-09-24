@@ -1,0 +1,50 @@
+/*navbar starts*/
+#navbar{
+    flex-direction:column;
+}
+#navbar h1{
+    margin-bottom:0.8rem;
+}
+/*Navbar ends*/
+/*Home section starts*/
+#home p, h2{
+    font-size:1rem;
+}
+#home h2{
+    margin:0.15rem 0.1rem;
+}
+/*Home section ends*/
+/*Study section starts*/
+.study{
+    display:Flex;
+    flex-direction: column;
+    width:100%;
+}
+.study-img{
+    position:Relative;
+}
+#study span{
+    /*position:absolute;
+    color:white;
+    background-color:seagreen;
+    border-radius:2px;
+    z-index:1;
+    font-weight:300;
+    top:5px;
+    */width:20%;
+    padding:1rem;
+    border-radius:0.8rem;
+}
+#study img{
+    border-radius:10px;
+    width:100%;
+    object-fit:Cover;
+}
+.study{
+    font-size:1rem;
+}
+.study-detail{
+    width:100%;
+    text-align:center;
+}
+/*Study section ends*/

@@ -1,0 +1,17 @@
+/*HTML layout verilmişdir. Mətni qaydalara uyğun  tərtib edin:
+- birinci səviyyə başlıq ölçüsü— 24px,
+- bütün başlıqların rəngi — darkgrey,
+- sadə mətn kursiv təyin edilməlidir,
+- siyahı elementlərindəki mətn — blue*/
+.first{
+    font-size:24px;
+}
+h1,h2{
+    color:darkgrey;
+}
+li{
+    color:blue;
+}
+p{
+    font-style:italic;
+}

@@ -1,0 +1,21 @@
+table,tr,th,td{
+    border-collapse:collapse;
+    width:50%;
+    border:1px solid black;
+    padding:10px;
+    margin:0 auto;
+}
+th{
+    background-color:seagreen;
+    color:white;
+}
+tbody{
+    text-align:center;
+}
+tbody tr:nth-child(even){
+    background-color:greenyellow;
+}
+tbody tr:hover{
+    background-color:seagreen;
+    color:White;
+}
