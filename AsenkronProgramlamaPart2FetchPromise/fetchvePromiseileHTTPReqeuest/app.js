@@ -19,3 +19,4 @@ request.get("https://jsonplaceholder.typicode.com/albums")
     console.log(albums);
 })
 .catch(err => console.log(err));
+console.log("hello");
